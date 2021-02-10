@@ -26,6 +26,17 @@
   text-align: center;
 }
 
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 100px 0px 50px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -83,7 +94,7 @@ button i {
 .title-image {
   width: 300px;
   transform: rotate(25deg);
-  position:absolute;
+  position: absolute;
   right: 20%;
 }
 
@@ -134,11 +145,31 @@ button i {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* Cta */
+.cta__h3 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 5% 25% 0;
+}
+/* Footer */
+.footer__icon {
+  padding: 15px;
+}
+.footer__p{
+  color:grey;
+}
+.footer__button{
+  margin-right: 30px;
+}
+
 /* Media Query */
 @media (max-width: 1030px) {
   #title {
     text-align: center;
   }
+
   .title-image {
     position: static;
     transform: rotate(0);
